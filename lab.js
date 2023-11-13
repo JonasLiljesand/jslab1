@@ -136,9 +136,9 @@ for (i = 1; i <= 6; i++) {
 	}
 }
 
-const readline = require('readline');
+const meny = require('readline');
 
-const rl = readline.createInterface({
+const rl = meny.createInterface({
   input: process.stdin,
   output: process.stdout
 });
